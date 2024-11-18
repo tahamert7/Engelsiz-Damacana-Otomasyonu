@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Su_tuketimi" targetNamespace="http://tempuri.org/Su_tuketimi.xsd" xmlns:mstns="http://tempuri.org/Su_tuketimi.xsd" xmlns="http://tempuri.org/Su_tuketimi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Su_tuketimi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Su_tuketimi" msprop:Generator_DataSetName="Su_tuketimi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SuTuketimi" msprop:Generator_RowEvHandlerName="SuTuketimiRowChangeEventHandler" msprop:Generator_RowDeletedName="SuTuketimiRowDeleted" msprop:Generator_RowDeletingName="SuTuketimiRowDeleting" msprop:Generator_RowEvArgName="SuTuketimiRowChangeEvent" msprop:Generator_TablePropName="SuTuketimi" msprop:Generator_RowChangedName="SuTuketimiRowChanged" msprop:Generator_RowChangingName="SuTuketimiRowChanging" msprop:Generator_TableClassName="SuTuketimiDataTable" msprop:Generator_RowClassName="SuTuketimiRow" msprop:Generator_TableVarName="tableSuTuketimi" msprop:Generator_UserTableName="SuTuketimi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Günler" msprop:Generator_ColumnPropNameInRow="Günler" msprop:Generator_ColumnPropNameInTable="GünlerColumn" msprop:Generator_ColumnVarNameInTable="columnGünler" msprop:Generator_UserColumnName="Günler" type="xs:string" minOccurs="0" />
+              <xs:element name="LT" msprop:Generator_ColumnPropNameInRow="LT" msprop:Generator_ColumnPropNameInTable="LTColumn" msprop:Generator_ColumnVarNameInTable="columnLT" msprop:Generator_UserColumnName="LT" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
